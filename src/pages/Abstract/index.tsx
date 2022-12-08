@@ -1,9 +1,5 @@
 const Abstract = () => {
-    return (
-        <div>
-            abstract
-        </div>
-    )
-}
+  return <div>首页</div>;
+};
 
-export default Abstract
+export default Abstract;

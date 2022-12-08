@@ -1,8 +1,8 @@
-$color: rgba(177, 93, 93, 0.933);
-body{
-    background-color: $color;
-    user-select: none;
+$color: #ffff;
+body {
+  background-color: $color;
+  user-select: none;
 }
-img{
-    -webkit-user-drag: none;
+img {
+  -webkit-user-drag: none;
 }
