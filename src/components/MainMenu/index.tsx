@@ -45,12 +45,12 @@ const MainMenu = () => {
   const getOpenFirst = () => {
     let openString = "";
     const jurgeLocation = (item: { key: string }) => {
-      console.log(item.key, currentLocation.pathname);
+      // console.log(item.key, currentLocation.pathname);
       return item.key === currentLocation.pathname;
     };
 
     items.forEach((item: any) => {
-      console.log(item);
+      // console.log(item);
       item &&
         item.children !== undefined &&
         item.children.forEach((son: any) => {

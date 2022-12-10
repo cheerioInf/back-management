@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import { Breadcrumb, Layout, theme } from "antd";
+import { Layout } from "antd";
 import { Outlet } from "react-router-dom";
 import MainMenu from "@/components/MainMenu";
 import styles from "./index.module.scss";
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
 
 const App: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
 
   return (
     <Layout style={{ minHeight: "100vh" }}>

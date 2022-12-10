@@ -1,4 +1,5 @@
 import useLazy from "@/hooks/useLazy";
+const Login = useLazy(import("@/pages/Login"));
 const Home = useLazy(import("@/pages/Home"));
 const Abstract = useLazy(import("@/pages/Abstract"));
 const DataFirst = useLazy(import("@/pages/Data/First"));
@@ -47,6 +48,10 @@ const routes = [
         element: <AnalyseSecond />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
   {
     path: "*",
